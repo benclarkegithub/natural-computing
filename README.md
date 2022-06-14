@@ -16,7 +16,7 @@ In Figure 4 y-axis: alpha 1, x-axis: alpha 2.
 
 Implemented the Genetic Program (GP) [2] algorithm from scratch using NumPy.
 The basics followed the book *A Field Guide to Genetic Programming* [3], but the questions in the assignment required much beyond this.
-`GeneticProgram.py` is capable of solving advanced symbolic regression problems of around 5 depth (63 nodes) with 16 functions and 9 terminals, the upper estimate of the number of possible solutions being (16+9)^63.
+`GeneticProgram.py` is capable of solving advanced symbolic regression problems of around 5 depth (63 nodes) with 16 functions and 9 terminals, the upper estimate of the number of possible solutions being 16^31 * 9^32 ≈ 7*10^67.
 The basics and key ideas are outlined below.
 
 ### Basics
